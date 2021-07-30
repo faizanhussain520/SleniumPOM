@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 3.19 s <<< FAILURE! - in TestSuite
+com.zoho.suite.testcases.login.LoginTest.loginTest  Time elapsed: 0.169 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-LG7E1GC', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ZohoDriver
+	at com.zoho.suite.testcases.login.LoginTest.loginTest(LoginTest.java:68)
+
+com.zoho.suite.testcases.creation.CreateTaskTest.createTaskTest  Time elapsed: 0.17 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-LG7E1GC', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ZohoDriver
+	at com.zoho.suite.testcases.creation.CreateTaskTest.createTaskTest(CreateTaskTest.java:40)
+
+com.zoho.suite.testcases.creation.CreateLeadTest.createLeadTest  Time elapsed: 0.171 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
+System info: host: 'DESKTOP-LG7E1GC', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: driver.version: ZohoDriver
+	at com.zoho.suite.testcases.creation.CreateLeadTest.createLeadTest(CreateLeadTest.java:42)
+
